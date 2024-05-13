@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #515151;
+}
+
+header{
+    margin: 44px 0px 144px 76px; 
+}
+
+.link-header {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #989d9c;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.button-log-in{
+    background: #665ae1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    color: #ffffff;
+}
+
+img{
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+div {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1{
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 121.9px;
+    color: #515151;
+}
+
+h2{
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 70.7px;
+    color: #515151;
+}
+
+p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    color: #848484;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.button-explore {
+    background: #adff00;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+}
+
+
+@media screen and (max-width: 660px) {
+    header {
+     font-size: 30px;
+     font-weight: 600;
+     width:100vh;
+     height: 50%;
+     padding: 0;
+     margin: 22px 0px 20px 5px;
+     display: flex;
+}
+
+img{
+    margin: 10px 0 10px 30px;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 100px;
+    color: #515151;
+    text-align: center;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #515151; 
+    text-align: center;
+}
+
+p{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35px;
+    color: #848484;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+    text-align: center;
+}
+
+.button-explore {
+    background: #adff00;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    margin: 20px 60px 20px 123px;
+}
+
+.button-log-in{
+    background: #665ae1;
+    border-radius: 20.5px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    color: #ffffff; 
+}
+
+}
